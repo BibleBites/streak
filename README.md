@@ -1,14 +1,14 @@
 <p align="center">
-    <a href="https://mybiblebytes.com/opensource">
-        <img src="https://github.com/BibleBytes/landing-page/blob/main/favicon/android-chrome-512x512.png" height="128px"/>
+    <a href="https://getbiblebites.com/opensource">
+        <img src="https://github.com/BibleBites/brand-kit/raw/main/media-photos/biblebites-favicon-rounded.png" height="100px"/>
         <h1 align="center">Streak</h1>
     </a>
 </p>
 
 
 <p align="center">
-    <img alt="NPM Version" src="https://img.shields.io/npm/v/%40biblebytes%2Fstreak"/>
-    <img src="https://github.com/BibleBytes/streak/actions/workflows/testing.yml/badge.svg"/>
+    <img alt="NPM Version" src="https://img.shields.io/npm/v/%40biblebites%2Fstreak"/>
+    <img src="https://github.com/BibleBites/streak/actions/workflows/testing.yml/badge.svg"/>
 </p>
 
 
@@ -28,7 +28,7 @@ consecutive days of activity.
 To install the package via npm, run:
 
 ```
-npm i @biblebytes/streak
+npm i @biblebites/streak
 ```
 
 
@@ -47,7 +47,7 @@ function Process(dates:DateString[]): Status
 
 **Examples**:
 ```typescript
-import { GetStatus, type DateString, GetDate } from "@biblebytes/streak";
+import { GetStatus, type DateString, GetDate } from "@biblebites/streak";
 
 const dates1:DateString[] = [
     "2022-12-21", "2022-12-22", "2022-12-23",
@@ -111,7 +111,7 @@ function GetDate(): DateString
 
 **Examples**:
 ```typescript
-import { GetStatus, type DateString, GetDate } from "@biblebytes/streak";
+import { GetStatus, type DateString, GetDate } from "@biblebites/streak";
 
 // On September, 1st 2024
 GetDate();
@@ -129,7 +129,7 @@ month and day identifier.
 
 **Examples**:
 ```typescript
-import { type DateString } from "@biblebytes/streak";
+import { type DateString } from "@biblebites/streak";
 
 let date1:DateString = "2001-12-29";
 let date2:DateString = "2001-01-01";
