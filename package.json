@@ -35,6 +35,6 @@
         "esbuild": "^0.28.0",
         "mocha": "^11.1.0",
         "ts-node": "^10.9.2",
-        "typescript": "^5.6.3"
+        "typescript": "^6.0.2"
     }
 }
